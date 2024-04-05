@@ -21,6 +21,7 @@ function App() {
         name="firstName"
         id="firstName"
         placeholder="Love"
+        value={formData.firstName}
         onChange={changeHandler}
         className="outline"
       />
