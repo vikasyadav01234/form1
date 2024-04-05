@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
 
   const [formData, setFormData] = useState({
-    firstName:"", lastName:""
+    firstName:"", lastName:"", email:""
   })
 
   function changeHandler(event){
@@ -32,6 +32,16 @@ function App() {
         name="lastName"
         id="lastName"
         placeholder="babber"
+        value={changeHandler}
+        className="outline"
+      />
+      <label htmlFor="email">Email</label>
+      <br/>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="abcd@gmail.com"
         value={changeHandler}
         className="outline"
       />
