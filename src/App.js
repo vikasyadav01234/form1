@@ -32,7 +32,7 @@ function App() {
         name="lastName"
         id="lastName"
         placeholder="babber"
-        value={changeHandler}
+        onChange={changeHandler}
         className="outline"
       />
       <label htmlFor="email">Email</label>
