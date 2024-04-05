@@ -18,6 +18,7 @@ function App() {
         type="text"
         name="firstName"
         id="firstName"
+        placeholder="Love"
       />
     </form>
     </div>
