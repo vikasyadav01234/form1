@@ -33,6 +33,7 @@ function App() {
         name="lastName"
         id="lastName"
         placeholder="babber"
+        value={formData.lastName}
         onChange={changeHandler}
         className="outline"
       />
