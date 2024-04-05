@@ -21,7 +21,7 @@ function App() {
         name="firstName"
         id="firstName"
         placeholder="Love"
-        value={changeHandler}
+        onChange={changeHandler}
         className="outline"
       />
 
