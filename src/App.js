@@ -12,7 +12,7 @@ function App() {
     setFormData( (prev) => ({...prev, [name]:value}) )
   }
   return (
-    <div>
+    <div className="flex flex-col justify-center">
     <form>
       <input
         type="text"
