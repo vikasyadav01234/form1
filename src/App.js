@@ -15,6 +15,7 @@ function App() {
     <div className="flex flex-col items-center mt-2">
     <form>
       <label htmlFor="firstName">First name</label>
+      <br/>
       <input
         type="text"
         name="firstName"
