@@ -29,9 +29,9 @@ function App() {
       <br/>
       <input
         type="text"
-        name="firstName"
-        id="firstName"
-        placeholder="Love"
+        name="lastName"
+        id="lastName"
+        placeholder="babber"
         value={changeHandler}
         className="outline"
       />
