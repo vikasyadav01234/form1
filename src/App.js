@@ -20,6 +20,7 @@ function App() {
         id="firstName"
         placeholder="Love"
         value={changeHandler}
+        className="outline"
       />
     </form>
     </div>
