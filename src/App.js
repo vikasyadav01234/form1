@@ -42,7 +42,7 @@ function App() {
         name="email"
         id="email"
         placeholder="abcd@gmail.com"
-        value={changeHandler}
+        onChange={changeHandler}
         className="outline"
       />
     </form>
