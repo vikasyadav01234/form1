@@ -12,7 +12,7 @@ function App() {
     setFormData( (prev) => ({...prev, [name]:value}) )
   }
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center mt-2">
     <form>
       <input
         type="text"
