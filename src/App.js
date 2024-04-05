@@ -10,7 +10,8 @@ function App() {
     <div>
     <form>
       <input
-        
+        type="text"
+        name="firstName"
       />
     </form>
     </div>
