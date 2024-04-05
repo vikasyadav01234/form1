@@ -6,6 +6,10 @@ function App() {
   const [formData, setFormData] = useState({
     firstName:""
   })
+
+  function changeHandler(event){
+    const {name, value, checked, type} = event.target;
+  }
   return (
     <div>
     <form>
