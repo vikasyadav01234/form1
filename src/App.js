@@ -9,6 +9,7 @@ function App() {
 
   function changeHandler(event){
     const {name, value, checked, type} = event.target;
+    setFormData( (prev) => ({...prev, [name]:value}) )
   }
   return (
     <div>
