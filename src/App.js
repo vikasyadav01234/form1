@@ -24,6 +24,17 @@ function App() {
         value={changeHandler}
         className="outline"
       />
+
+      <label htmlFor="firstName">First name</label>
+      <br/>
+      <input
+        type="text"
+        name="firstName"
+        id="firstName"
+        placeholder="Love"
+        value={changeHandler}
+        className="outline"
+      />
     </form>
     </div>
   );
