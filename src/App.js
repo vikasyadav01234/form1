@@ -25,7 +25,7 @@ function App() {
         className="outline"
       />
 
-      <label htmlFor="firstName">First name</label>
+      <label htmlFor="lastName">Last name</label>
       <br/>
       <input
         type="text"
