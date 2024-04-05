@@ -12,6 +12,7 @@ function App() {
       <input
         type="text"
         name="firstName"
+        id="firstName"
       />
     </form>
     </div>
