@@ -19,6 +19,7 @@ function App() {
         name="firstName"
         id="firstName"
         placeholder="Love"
+        value={changeHandler}
       />
     </form>
     </div>
