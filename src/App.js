@@ -135,7 +135,7 @@ function App() {
             id="candidates"
             name="candidates"
             type="checkbox"
-            value={formData.candidates}
+            checked={formData.candidates}
             onChange={changeHandler}
           />
           <div>
