@@ -56,6 +56,7 @@ function App() {
         id="country"
         name="country"
         value={formData.country}
+        onChange={changeHandler}
       >
         <option>India</option>
         <option>United State</option>
