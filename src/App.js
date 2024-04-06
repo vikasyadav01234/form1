@@ -89,6 +89,30 @@ function App() {
         onChange={changeHandler}
         className="outline"
       />
+      <br/>
+      <label htmlFor="state">State/Province</label>
+      <br/>
+      <input
+        type="text"
+        name="state"
+        id="state"
+        placeholder="Rajasthan"
+        value={formData.state}
+        onChange={changeHandler}
+        className="outline"
+      />
+      <br/>
+      <label htmlFor="email">Email</label>
+      <br/>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="abcd@gmail.com"
+        value={formData.email}
+        onChange={changeHandler}
+        className="outline"
+      />
     </form>
     </div>
   );
