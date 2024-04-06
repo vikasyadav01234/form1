@@ -14,9 +14,13 @@ function App() {
     const {name, value, checked, type} = event.target;
     setFormData( (prev) => ({...prev, [name]:type === "checkbox" ? checked: value}) )
   }
+
+  function submitHandler(){
+    
+  }
   return (
     <div className="flex flex-col items-center mt-2">
-    <form>
+    <form onSubmit={submitHandler}>
       <label htmlFor="firstName">First name</label>
       <br/>
       <input
