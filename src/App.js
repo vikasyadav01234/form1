@@ -145,14 +145,14 @@ function App() {
         </div>
         <div className="flex">
           <input
-            id="comments"
-            name="comments"
+            id="offers"
+            name="offers"
             type="checkbox"
-            value={formData.comments}
+            value={formData.offers}
             onChange={changeHandler}
           />
           <div>
-            <label htmlFor="comments">Comments</label>
+            <label htmlFor="offers">Offers</label>
             <p>Get Notfied When Someones Posts a Comment on a Posting</p>
           </div>
         </div>
