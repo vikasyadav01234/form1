@@ -51,7 +51,11 @@ function App() {
       />
       <br/>
       <label htmlFor="country">Country</label>
-      <select>
+      <select
+        id="country"
+        name="country"
+        value={formData.country}
+      >
         <option>India</option>
         <option>United State</option>
         <option>Canada</option>
