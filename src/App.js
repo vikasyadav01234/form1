@@ -117,6 +117,15 @@ function App() {
       />
       <fieldset>
         <legend>By Email</legend>
+        <div>
+          <input
+            id="comments"
+            name="comments"
+            type="checkbox"
+            value={formData.comments}
+            onChange={changeHandler}
+          />
+        </div>
       </fieldset>
     </form>
     </div>
