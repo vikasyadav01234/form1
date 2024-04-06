@@ -115,6 +115,8 @@ function App() {
         onChange={changeHandler}
         className="outline"
       />
+      <br/>
+      <br/>
       <fieldset>
         <legend>By Email</legend>
         <div className="flex">
