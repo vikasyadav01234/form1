@@ -78,14 +78,14 @@ function App() {
         className="outline"
       />
       <br/>
-      <label htmlFor="email">Email</label>
+      <label htmlFor="city">City</label>
       <br/>
       <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="abcd@gmail.com"
-        value={formData.email}
+        type="text"
+        name="city"
+        id="city"
+        placeholder="Jaipur"
+        value={formData.city}
         onChange={changeHandler}
         className="outline"
       />
