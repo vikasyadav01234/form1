@@ -130,6 +130,32 @@ function App() {
             <p>Get Notfied When Someones Posts a Comment on a Posting</p>
           </div>
         </div>
+        <div className="flex">
+          <input
+            id="candidates"
+            name="candidates"
+            type="checkbox"
+            value={formData.candidates}
+            onChange={changeHandler}
+          />
+          <div>
+            <label htmlFor="candidates">Candidates</label>
+            <p>Get Notfied When Someones Posts a Comment on a Posting</p>
+          </div>
+        </div>
+        <div className="flex">
+          <input
+            id="comments"
+            name="comments"
+            type="checkbox"
+            value={formData.comments}
+            onChange={changeHandler}
+          />
+          <div>
+            <label htmlFor="comments">Comments</label>
+            <p>Get Notfied When Someones Posts a Comment on a Posting</p>
+          </div>
+        </div>
       </fieldset>
     </form>
     </div>
