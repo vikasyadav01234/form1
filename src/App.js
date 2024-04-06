@@ -49,7 +49,8 @@ function App() {
         onChange={changeHandler}
         className="outline"
       />
-      <label></label>
+      <br/>
+      <label>Country</label>
     </form>
     </div>
   );
