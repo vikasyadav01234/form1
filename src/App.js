@@ -8,15 +8,15 @@ function App() {
      country:"India", streetAddress:"", city:"", state:"", postalCode:"",
      comments:false, candidates:false, offers:false, pushNotification:""
   })
-  console.log(formData)
+  
 
   function changeHandler(event){
     const {name, value, checked, type} = event.target;
     setFormData( (prev) => ({...prev, [name]:type === "checkbox" ? checked: value}) )
   }
 
-  function submitHandler(){
-    
+  function submitHandler(event){
+    event.preventDefault();
   }
   return (
     <div className="flex flex-col items-center mt-2">
