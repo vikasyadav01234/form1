@@ -169,6 +169,7 @@ function App() {
           onChange={changeHandler}
         />
         <label htmlFor="pushEverything">Everything</label>
+        <br/>
         <input
           type="radio"
           id="pushEmail"
