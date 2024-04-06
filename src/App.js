@@ -168,6 +168,7 @@ function App() {
           value="Everything"
           onChange={changeHandler}
         />
+        <label htmlFor="pushEverything">Everything</label>
       </fieldset>
     </form>
     </div>
