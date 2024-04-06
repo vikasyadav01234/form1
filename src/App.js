@@ -51,6 +51,12 @@ function App() {
       />
       <br/>
       <label>Country</label>
+      <select>
+        <option>India</option>
+        <option>India</option>
+        <option>India</option>
+        <option>India</option>
+      </select>
     </form>
     </div>
   );
