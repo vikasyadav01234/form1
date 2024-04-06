@@ -65,6 +65,30 @@ function App() {
         <option>Canada</option>
         <option>Maxico</option>
       </select>
+      <br/>
+      <label htmlFor="">Street Address</label>
+      <br/>
+      <input
+        type="text"
+        name="streetAddress"
+        id="streetAddress"
+        placeholder="1234 Main St"
+        value={formData.streetAddress}
+        onChange={changeHandler}
+        className="outline"
+      />
+      <br/>
+      <label htmlFor="email">Email</label>
+      <br/>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="abcd@gmail.com"
+        value={formData.email}
+        onChange={changeHandler}
+        className="outline"
+      />
     </form>
     </div>
   );
