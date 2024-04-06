@@ -157,6 +157,8 @@ function App() {
           </div>
         </div>
       </fieldset>
+      <br/>
+      <br/>
       <fieldset>
         <legend>Push Notifications</legend>
         <p>These are deleverd via SMS to your mobile phone.</p>
