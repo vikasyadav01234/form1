@@ -115,6 +115,9 @@ function App() {
         onChange={changeHandler}
         className="outline"
       />
+      <fieldset>
+        <legend>By Email</legend>
+      </fieldset>
     </form>
     </div>
   );
