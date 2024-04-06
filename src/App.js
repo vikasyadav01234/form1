@@ -5,8 +5,10 @@ function App() {
 
   const [formData, setFormData] = useState({
     firstName:"", lastName:"", email:"",
-     country:"India", streetAddress:"", city:"", state:"", postalCode:""
+     country:"India", streetAddress:"", city:"", state:"", postalCode:"",
+     comments:false, candidates:false, offers:false
   })
+  console.log(formData)
 
   function changeHandler(event){
     const {name, value, checked, type} = event.target;
