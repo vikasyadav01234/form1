@@ -179,7 +179,7 @@ function App() {
         <label htmlFor="pushEmail">Same as Email</label>
         <input
           type="radio"
-          id="pushEverything"
+          id="pushNothing"
           name="pushNotification"
           value="Everything"
           onChange={changeHandler}
