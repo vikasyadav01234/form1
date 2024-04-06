@@ -153,7 +153,7 @@ function App() {
           />
           <div>
             <label htmlFor="offers">Offers</label>
-            <p>Get Notfied When </p>
+            <p>Get Notfied When a candidate accepts or rejects an offer. </p>
           </div>
         </div>
       </fieldset>
