@@ -160,7 +160,7 @@ function App() {
       <fieldset>
         <legend>Push Notifications</legend>
         <p>These are deleverd via SMS to your mobile phone.</p>
-
+        <br/>
         <input
           type="radio"
           id="pushEverything"
