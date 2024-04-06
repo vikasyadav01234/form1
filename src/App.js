@@ -44,6 +44,7 @@ function App() {
         name="email"
         id="email"
         placeholder="abcd@gmail.com"
+        value={formData.email}
         onChange={changeHandler}
         className="outline"
       />
