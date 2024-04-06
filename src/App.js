@@ -127,7 +127,7 @@ function App() {
           />
           <div>
             <label htmlFor="comments">Comments</label>
-            <p>Get Notfied When Someones Posts a Comment on a Posting</p>
+            <p>Get Notfied When Someones Posts a Comment on a Posting.</p>
           </div>
         </div>
         <div className="flex">
@@ -140,7 +140,7 @@ function App() {
           />
           <div>
             <label htmlFor="candidates">Candidates</label>
-            <p>Get Notfied When a Candidate Applies for a job</p>
+            <p>Get Notfied When a Candidate Applies for a job.</p>
           </div>
         </div>
         <div className="flex">
