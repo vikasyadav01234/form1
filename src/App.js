@@ -181,10 +181,10 @@ function App() {
           type="radio"
           id="pushNothing"
           name="pushNotification"
-          value="Everything"
+          value="No Push Notifications"
           onChange={changeHandler}
         />
-        <label htmlFor="pushEverything">Everything</label>
+        <label htmlFor="push">Everything</label>
       </fieldset>
     </form>
     </div>
