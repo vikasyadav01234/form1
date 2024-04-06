@@ -153,7 +153,7 @@ function App() {
           />
           <div>
             <label htmlFor="offers">Offers</label>
-            <p>Get Notfied When Someones Posts a Comment on a Posting</p>
+            <p>Get Notfied When </p>
           </div>
         </div>
       </fieldset>
