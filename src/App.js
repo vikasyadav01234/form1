@@ -163,6 +163,10 @@ function App() {
 
         <input
           type="radio"
+          id="pushEverything"
+          name="pushNotification"
+          value="Everything"
+          onChange={changeHandler}
         />
       </fieldset>
     </form>
