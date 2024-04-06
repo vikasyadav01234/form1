@@ -66,7 +66,7 @@ function App() {
         <option>Maxico</option>
       </select>
       <br/>
-      <label htmlFor="">Street Address</label>
+      <label htmlFor="streetAddress">Street Address</label>
       <br/>
       <input
         type="text"
