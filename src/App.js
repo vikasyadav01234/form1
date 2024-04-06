@@ -25,7 +25,7 @@ function App() {
         onChange={changeHandler}
         className="outline"
       />
-
+      <br/>
       <label htmlFor="lastName">Last name</label>
       <br/>
       <input
@@ -37,6 +37,7 @@ function App() {
         onChange={changeHandler}
         className="outline"
       />
+      <br/>
       <label htmlFor="email">Email</label>
       <br/>
       <input
