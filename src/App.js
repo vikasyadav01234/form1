@@ -184,7 +184,7 @@ function App() {
           value="No Push Notifications"
           onChange={changeHandler}
         />
-        <label htmlFor="push">Everything</label>
+        <label htmlFor="pushNothing">NO Push Notifications</label>
       </fieldset>
     </form>
     </div>
