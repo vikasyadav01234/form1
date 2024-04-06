@@ -6,7 +6,7 @@ function App() {
   const [formData, setFormData] = useState({
     firstName:"", lastName:"", email:"",
      country:"India", streetAddress:"", city:"", state:"", postalCode:"",
-     comments:false, candidates:false, offers:false
+     comments:false, candidates:false, offers:false, pushNotification:""
   })
   console.log(formData)
 
@@ -158,7 +158,8 @@ function App() {
         </div>
       </fieldset>
       <fieldset>
-        <legend></legend>
+        <legend>Push Notifications</legend>
+        <p>These are deleverd via SMS to your mobile phone.</p>
       </fieldset>
     </form>
     </div>
