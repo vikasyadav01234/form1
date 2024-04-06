@@ -117,7 +117,7 @@ function App() {
       />
       <fieldset>
         <legend>By Email</legend>
-        <div>
+        <div className="flex">
           <input
             id="comments"
             name="comments"
