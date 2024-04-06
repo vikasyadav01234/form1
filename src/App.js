@@ -176,7 +176,7 @@ function App() {
           value="Same as Email"
           onChange={changeHandler}
         />
-        <label htmlFor="pushEverything">Everything</label>
+        <label htmlFor="pushEmail">Same as Email</label>
       </fieldset>
     </form>
     </div>
