@@ -12,7 +12,7 @@ function App() {
 
   function changeHandler(event){
     const {name, value, checked, type} = event.target;
-    setFormData( (prev) => ({...prev, [name]:value}) )
+    setFormData( (prev) => ({...prev, [name]:type === "checkbox" ? checked: value}) )
   }
   return (
     <div className="flex flex-col items-center mt-2">
