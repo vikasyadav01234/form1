@@ -177,6 +177,14 @@ function App() {
           onChange={changeHandler}
         />
         <label htmlFor="pushEmail">Same as Email</label>
+        <input
+          type="radio"
+          id="pushEverything"
+          name="pushNotification"
+          value="Everything"
+          onChange={changeHandler}
+        />
+        <label htmlFor="pushEverything">Everything</label>
       </fieldset>
     </form>
     </div>
