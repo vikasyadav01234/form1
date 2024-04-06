@@ -17,6 +17,8 @@ function App() {
 
   function submitHandler(event){
     event.preventDefault();
+    console.log("Finally printing the value of from data");
+    console.log(formData)
   }
   return (
     <div className="flex flex-col items-center mt-2">
