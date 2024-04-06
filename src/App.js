@@ -4,7 +4,8 @@ import "./App.css";
 function App() {
 
   const [formData, setFormData] = useState({
-    firstName:"", lastName:"", email:"", country:"India"
+    firstName:"", lastName:"", email:"",
+     country:"India", streetAddress:"", city:"", state:"", postalCode:""
   })
 
   function changeHandler(event){
