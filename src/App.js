@@ -50,12 +50,12 @@ function App() {
         className="outline"
       />
       <br/>
-      <label>Country</label>
+      <label htmlFor="country">Country</label>
       <select>
         <option>India</option>
-        <option>India</option>
-        <option>India</option>
-        <option>India</option>
+        <option>United State</option>
+        <option>Canada</option>
+        <option>Maxico</option>
       </select>
     </form>
     </div>
