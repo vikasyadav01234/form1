@@ -51,6 +51,7 @@ function App() {
       />
       <br/>
       <label htmlFor="country">Country</label>
+      <br/>
       <select
         id="country"
         name="country"
